@@ -31,13 +31,13 @@ The backend API ensures data persistence, while the frontend provides a responsi
 - **Task Prioritization**: High, Medium, Low priority categorization  
 - **Filtering & Search**: Filter tasks by status or priority, search tasks by name  
 - **Responsive UI**: Works on desktop and mobile devices  
-- **Data Persistence**: Backend stores tasks in a JSON file (MongoDB ready)  
+- **Data Persistence**: Backend stores tasks in a JSON file 
 
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Node.js, Express.js  
-- **Data Storage**: Local JSON file (Phase 1), MongoDB ready (Phase 2)  
+- **Data Storage**: Local JSON file (Phase 1)
 - **Tools**: VS Code, Git/GitHub, Postman  
 
 
