@@ -25,10 +25,11 @@ export const addTask = async (title, priority) => {
   }
 };
 
-export const updateTask = async (id) => {
+// ✅ Toggle task completion
+export const toggleTask = async (id) => {
   try {
     const response = await fetch(`${BASE_URL}/tasks/${id}`, { method: "PUT" });
-    if (!response.ok) throw new Error("Failed to update task");
+    if (!response.ok) throw new Error("Failed to toggle task");
     return await response.json();
   } catch (error) {
     console.error(error);
