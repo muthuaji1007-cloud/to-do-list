@@ -12,6 +12,9 @@ app.use(bodyParser.json());
 
 // Read tasks from tasks.json
 const readTasks = () => {
+  if (!fs.existsSync("tasks.json")) {
+    fs.writeFileSync("tasks.json", JSON.stringify([]));
+  }
   const data = fs.readFileSync("tasks.json");
   return JSON.parse(data);
 };
@@ -46,7 +49,7 @@ app.post("/tasks", (req, res) => {
   res.status(201).json(newTask);
 });
 
-// PUT update task (mark complete/incomplete)
+// PUT update task (toggle complete/incomplete)
 app.put("/tasks/:id", (req, res) => {
   const { id } = req.params;
   const tasks = readTasks();

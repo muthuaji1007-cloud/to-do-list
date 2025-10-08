@@ -1,20 +1,20 @@
 [
   {
-    "id": "1",
-    "title": "Finish assignment",
-    "completed": false,
-    "priority": "High"
-  },
-  {
-    "id": "435ca7af-cd78-4fdb-a46b-c9eab0768165",
-    "title": "Complete Homework",
+    "id": "621d35ff-aa11-4add-8935-72b6a3d1b3a8",
+    "title": "Buy Groceries",
     "completed": false,
     "priority": "Medium"
   },
   {
-    "id": "80dfa8ba-f369-4b64-8307-1c1d3586c601",
-    "title": "Go to college",
+    "id": "95875e28-62c2-4836-a1c1-4ec8444da3f9",
+    "title": "Submit Assignment ",
+    "completed": true,
+    "priority": "High"
+  },
+  {
+    "id": "39ca1ed2-690c-4140-b4c7-16af6117b4ae",
+    "title": "Prepare Presentation Slides",
     "completed": false,
-    "priority": "Low"
+    "priority": "High"
   }
 ]
