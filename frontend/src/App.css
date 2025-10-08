@@ -182,3 +182,37 @@ h1 {
   color: #888;
   margin-top: 20px;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input,
+  .input-group select,
+  .input-group button {
+    width: 100%;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .task-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-card button {
+    align-self: flex-end;
+    margin-top: 8px;
+  }
+}
