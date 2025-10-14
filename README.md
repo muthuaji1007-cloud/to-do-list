@@ -8,10 +8,6 @@ A web-based To-Do List application with a responsive frontend and Node.js backen
 2. [Features](#features)
 3. [Tech Stack](#tech-stack)
 4. [Installation & Running](#installation--running)
-5. [Project Phases](#project-phases)
-6. [Demonstration](#demonstration)
-7. [Challenges & Solutions](#challenges--solutions)
-8. [Author](#author)
 
 
 ## Project Overview
