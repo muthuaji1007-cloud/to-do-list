@@ -41,4 +41,4 @@ The backend API ensures data persistence, while the frontend provides a responsi
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/mymoonafrin/to-do-list.git
+git clone https://github.com/muthuaji1007-cloud/to-do-list.git
